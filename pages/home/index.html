@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/productCard.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/modal.css" />
+    <link rel="stylesheet" href="/styles/margins.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Polish</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <h1 class="font-1-bold color-grey-1">Polish</h1>
+          <ul class="navbar-links">
+            <li>
+              <a href="#estofados" class="bt">Estofados</a>
+            </li>
+            <li>
+              <a href="#estantes" class="bt">Estantes</a>
+            </li>
+            <li>
+              <a href="#decoracoes" class="bt">Decoração</a>
+            </li>
+            <li>
+              <button href="" class="bt bt-cart" data-control-modal="modal-cart">
+                <svg
+                  width="16"
+                  height="15"
+                  viewBox="0 0 16 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.4375 8.50781L15.7227 2.82031C15.8047 2.41016 15.5039 2 15.0664 2H4.34766L4.10156 0.796875C4.01953 0.496094 3.74609 0.25 3.44531 0.25H0.65625C0.273438 0.25 0 0.550781 0 0.90625V1.34375C0 1.72656 0.273438 2 0.65625 2H2.54297L4.48438 11.4062C4.01953 11.6797 3.71875 12.1719 3.71875 12.7188C3.71875 13.5664 4.40234 14.25 5.25 14.25C6.07031 14.25 6.78125 13.5664 6.78125 12.7188C6.78125 12.3086 6.58984 11.9258 6.31641 11.625H12.0312C11.7578 11.9258 11.5938 12.3086 11.5938 12.7188C11.5938 13.5664 12.2773 14.25 13.125 14.25C13.9453 14.25 14.6562 13.5664 14.6562 12.7188C14.6562 12.1172 14.3008 11.5977 13.7812 11.3516L13.918 10.6953C14.0273 10.2852 13.6992 9.875 13.2891 9.875H5.96094L5.76953 9H13.7812C14.082 9 14.3555 8.80859 14.4375 8.50781Z"
+                  />
+                </svg>
+                <span class="cart-number">0</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="products-section" id="estofados">
+        <div class="container">
+          <div class="products-section-header">
+            <h2 class="font-2-bold">Estofados</h2>
+            <div class="products-section-header-buttons-control-scroll" >
+              <button
+                class="bt"
+                data-control-scroll="0"
+                data-direction="negative"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.847656 4.78516C0.601562 5.05859 0.601562 5.46875 0.847656 5.71484L4.56641 9.43359C4.83984 9.70703 5.25 9.70703 5.49609 9.43359L6.125 8.83203C6.37109 8.55859 6.37109 8.14844 6.125 7.90234L3.47266 5.25L6.125 2.625C6.37109 2.37891 6.37109 1.94141 6.125 1.69531L5.49609 1.06641C5.25 0.820312 4.83984 0.820312 4.56641 1.06641L0.847656 4.78516Z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="bt"
+                data-control-scroll="0"
+                data-direction="positive"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.125 5.71484C6.37109 5.46875 6.37109 5.05859 6.125 4.78516L2.40625 1.06641C2.13281 0.820312 1.72266 0.820312 1.47656 1.06641L0.847656 1.69531C0.601562 1.96875 0.601562 2.37891 0.847656 2.625L3.5 5.27734L0.847656 7.90234C0.601562 8.14844 0.601562 8.55859 0.847656 8.83203L1.47656 9.43359C1.72266 9.70703 2.13281 9.70703 2.40625 9.43359L6.125 5.71484Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="products-area" data-scroll="0" data-products-filter='0'></div>
+        </div>
+      </section>
+      <section class="products-section" id="estantes">
+        <div class="container">
+          <div class="products-section-header">
+            <h2 class="font-2-bold">Estantes</h2>
+            <div class="products-section-header-buttons-control-scroll" >
+              <button
+                class="bt"
+                data-control-scroll="1"
+                data-direction="negative"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.847656 4.78516C0.601562 5.05859 0.601562 5.46875 0.847656 5.71484L4.56641 9.43359C4.83984 9.70703 5.25 9.70703 5.49609 9.43359L6.125 8.83203C6.37109 8.55859 6.37109 8.14844 6.125 7.90234L3.47266 5.25L6.125 2.625C6.37109 2.37891 6.37109 1.94141 6.125 1.69531L5.49609 1.06641C5.25 0.820312 4.83984 0.820312 4.56641 1.06641L0.847656 4.78516Z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="bt"
+                data-control-scroll="1"
+                data-direction="positive"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.125 5.71484C6.37109 5.46875 6.37109 5.05859 6.125 4.78516L2.40625 1.06641C2.13281 0.820312 1.72266 0.820312 1.47656 1.06641L0.847656 1.69531C0.601562 1.96875 0.601562 2.37891 0.847656 2.625L3.5 5.27734L0.847656 7.90234C0.601562 8.14844 0.601562 8.55859 0.847656 8.83203L1.47656 9.43359C1.72266 9.70703 2.13281 9.70703 2.40625 9.43359L6.125 5.71484Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="products-area" data-scroll="1" data-products-filter='1'></div>
+        </div>
+      </section>
+      <section class="products-section" id="decoracoes">
+        <div class="container">
+          <div class="products-section-header">
+            <h2 class="font-2-bold">Decorações</h2>
+            <div class="products-section-header-buttons-control-scroll" >
+              <button
+                class="bt"
+                data-control-scroll="2"
+                data-direction="negative"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.847656 4.78516C0.601562 5.05859 0.601562 5.46875 0.847656 5.71484L4.56641 9.43359C4.83984 9.70703 5.25 9.70703 5.49609 9.43359L6.125 8.83203C6.37109 8.55859 6.37109 8.14844 6.125 7.90234L3.47266 5.25L6.125 2.625C6.37109 2.37891 6.37109 1.94141 6.125 1.69531L5.49609 1.06641C5.25 0.820312 4.83984 0.820312 4.56641 1.06641L0.847656 4.78516Z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="bt"
+                data-control-scroll="2"
+                data-direction="positive"
+              >
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.125 5.71484C6.37109 5.46875 6.37109 5.05859 6.125 4.78516L2.40625 1.06641C2.13281 0.820312 1.72266 0.820312 1.47656 1.06641L0.847656 1.69531C0.601562 1.96875 0.601562 2.37891 0.847656 2.625L3.5 5.27734L0.847656 7.90234C0.601562 8.14844 0.601562 8.55859 0.847656 8.83203L1.47656 9.43359C1.72266 9.70703 2.13281 9.70703 2.40625 9.43359L6.125 5.71484Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="products-area" data-scroll="2" data-products-filter='2'></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-wrapper" data-modal-id="modal-product-details">
+      <div class="modal">
+        <img src="" alt="" class="product-modal-img">
+        <div class="modal-header">
+          <button class="bt close" data-control-modal="modal-product-details">X</button>
+        </div>
+        <div class="modal-body">
+            <h5 class="font-1-bold color-grey-1 product-modal-title"></h5>
+            <p class="font-3-regular color-grey-2 product-modal-description"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-wrapper" data-modal-id="modal-cart">
+      <div class="modal">
+        <div class="modal-header">
+          <h4 class="font-2-medium color-grey-1">Carrinho de compras</h4>
+          <button class="bt close" data-control-modal="modal-cart">X</button>
+        </div>
+        <div class="modal-body">
+          <p class="font-3-regular color-grey-2 mb-4">Aqui nessa seção você pode acessar todos os produtos que selecionou para comprar</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="/scripts/visualComponents/modal.js"></script>
+  </body>
+</html>
